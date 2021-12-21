@@ -1,0 +1,24 @@
+This fate of this file is showing to developers parameters conversation
+in request and response objects.
+
+Bike:
+    bike
+    bikeId       <Long>
+    bikeIds      List<Long>
+    bikeName     <String>
+    price        <Integer>       // $ per hour
+
+Drives:
+
+    drives  // class name in request/response attributes
+    drivesId    <Long>
+    drivesIds   List<Long>
+    hours       <Integer>
+    cost        <Integer>
+
+User:
+    user
+    userId      <Long>
+    userIds     List<Long>
+    userName    <String>
+    budget      <Integer>
