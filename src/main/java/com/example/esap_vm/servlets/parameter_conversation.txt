@@ -22,3 +22,7 @@ User:
     userIds     List<Long>
     userName    <String>
     budget      <Integer>
+
+
+jsp            | servlets
+CreateBike.jsp - create-bike

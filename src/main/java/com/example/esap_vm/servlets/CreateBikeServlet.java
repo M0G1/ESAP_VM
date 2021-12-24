@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@WebServlet(name="CreateBikeServlet", value = "/CreateBikeServlet",urlPatterns = "")
+@WebServlet(name="CreateBikeServlet", value = "/CreateBikeServlet",urlPatterns = "create-bike") // пустой url был
 public class CreateBikeServlet extends HttpServlet {
     @EJB
     AppBean appBean;
@@ -27,7 +27,7 @@ public class CreateBikeServlet extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws  IOException {
         String bikeName = req.getParameter("bikeName");
         Integer price = Integer.parseInt(req.getParameter("price"));
         appBean.createBike(new Bike(bikeName,price));
