@@ -2,7 +2,7 @@ This fate of this file is showing to developers parameters conversation
 in request and response objects.
 
 Bike:
-    bike
+    bike         <Bike>
     bikeId       <Long>
     bikeIds      List<Long>
     bikeName     <String>
@@ -17,7 +17,7 @@ Drives:
     cost        <Integer>
 
 User:
-    user
+    user        <User>
     userId      <Long>
     userIds     List<Long>
     userName    <String>
@@ -25,4 +25,24 @@ User:
 
 
 jsp            | servlets
-CreateBike.jsp - create-bike
+---------------|-------------
+ShowBikes.jsp  | bikes
+CreateBike.jsp | create-bike
+UpdateBike.jsp | update-bike
+---------------|-------------
+ShowUsers.jsp  | users
+CreateUser.jsp | create-user
+UpdateUser.jsp | create-user
+---------------|-------------
+ShowDrives.jsp | drives
+CreateDrive.jsp| create-drive
+UpdateDrive.jsp| update-drive // Нужен ли Изменять поездку? Она случилась раз и все.
+
+
+
+Как надо, но как говорится первый блин комом
+    При создании поездки изменять бюджет пользователя
+    Сделать отдельную страницу пользователя и байков с поездками
+    Можно было в поездку добавить поле дата начала поездки
+    Пользователю и байку тоже можно даты проставить. Например создания акка, начало эксплуатации, последний пройденное ТО на байке
+    // В таких приложениях есть еще активности карты(маршруты поездок)

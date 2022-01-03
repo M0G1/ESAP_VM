@@ -7,16 +7,16 @@
 </head>
 <body>
 <div class="container w-50">
-    <form method="post" action="${pageContext.request.contextPath}/create-bike">
+    <form method="post" action="${pageContext.request.contextPath}/create-user">
         <h1>Create student</h1>
         <div class="form-group">
-            <label for="bikeName">First name: </label>
-            <input class="form-control" id="bikeName" name="bikeName" type="text" required/>
+            <label for="userName">First name: </label>
+            <input class="form-control" id="userName" name="userName" type="text" required/>
         </div>
 
         <div class="form-group">
-            <label for="price">Year: </label>
-            <input class="form-control" id="price" name="price" type="number" min="1" required/>
+            <label for="budget">Year: </label>
+            <input class="form-control" id="budget" name="budget" type="number" min="0" required/>
         </div>
 
         <br>

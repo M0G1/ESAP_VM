@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "ShowUsersServlet", value = "/ShowUsersServlet", urlPatterns = "/user")
+@WebServlet(name = "ShowUsersServlet", value = "/ShowUsersServlet", urlPatterns = "/users")
 public class ShowUsersServlet extends HttpServlet {
 
     @EJB

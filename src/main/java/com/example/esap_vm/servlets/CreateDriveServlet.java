@@ -25,8 +25,12 @@ public class CreateDriveServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<Long> userIds = appBean.getAllUsers().stream().map(User::getId).collect(Collectors.toList());
         req.setAttribute("userIds", userIds);
+        List<String> userNames = appBean.getAllUsers().stream().map(User::getName).collect(Collectors.toList());
+        req.setAttribute("userNames", userNames);
         List<Long> bikeIds = appBean.getAllBikes().stream().map(Bike::getId).collect(Collectors.toList());
-        req.setAttribute("userIds", userIds);
+        req.setAttribute("bikeIds", bikeIds);
+        List<String> bikeNames = appBean.getAllBikes().stream().map(Bike::getBikeName).collect(Collectors.toList());
+        req.setAttribute("bikeNames", bikeNames);
         req.getRequestDispatcher("view/CreateDrive.jsp").forward(req, resp);
     }
 
