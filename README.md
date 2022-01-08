@@ -4,6 +4,7 @@
 
 Мы создали простое веб-приложение для фирмы, занимающейся прокатом велосипедов
 В его основе лежат три таблицы: bikes(велосипеды), drives(запланированные проездки) и users(пользователи).
+![image](https://sun9-76.userapi.com/impg/P6r2zG_X0HOYj-tDeeoeo8JEvGNUY_OODTHKVQ/SOA8QNWrQok.jpg?size=1015x258&quality=96&sign=dd4c9b9c5241fdf71f89bcea4b2cb951&type=album)
 В качестве базы данных используется Postgresql, для хостинга сервера приложения используется glassfish 6.2.3 c jakarta, само приложение написано на Java 17.0.1 в среде разработки IntelliJ IDEA 2021.2.3 
 
 В таблице bikes указывается id велосипеда, цена за час поездки.
