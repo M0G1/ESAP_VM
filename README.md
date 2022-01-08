@@ -5,6 +5,7 @@
 Мы создали простое веб-приложение для фирмы, занимающейся прокатом велосипедов
 В его основе лежат три таблицы: bikes(велосипеды), drives(запланированные проездки) и users(пользователи).
 ![image](https://sun9-76.userapi.com/impg/P6r2zG_X0HOYj-tDeeoeo8JEvGNUY_OODTHKVQ/SOA8QNWrQok.jpg?size=1015x258&quality=96&sign=dd4c9b9c5241fdf71f89bcea4b2cb951&type=album)
+![image](https://sun9-80.userapi.com/impg/VkrGki7euYNkNb53EfDjOtrLpNK4a1a_CMMiGg/E41pL2Qs-4I.jpg?size=1021x239&quality=96&sign=d781e1e08e33737932601c100ac21a3c&type=album)
 В качестве базы данных используется Postgresql, для хостинга сервера приложения используется glassfish 6.2.3 c jakarta, само приложение написано на Java 17.0.1 в среде разработки IntelliJ IDEA 2021.2.3 
 
 В таблице bikes указывается id велосипеда, цена за час поездки.
