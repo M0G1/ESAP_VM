@@ -19,7 +19,7 @@ public class User {
 
     private Integer budget;
 
-    @OneToMany(mappedBy = "user", fetch = FetchType.EAGER, cascade = CascadeType.ALL) // , orphanRemoval = true
+    @OneToMany(mappedBy = "user", fetch = FetchType.EAGER, cascade = CascadeType.ALL,orphanRemoval = true) // , orphanRemoval = true
     private Set<Drive> drives = new HashSet<>();
 
     public User() {

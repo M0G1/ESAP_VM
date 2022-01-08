@@ -11,6 +11,7 @@ import java.io.IOException;
 public class IndexServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        System.out.println("\nRequest to IndexServlet\n");
         response.sendRedirect(request.getContextPath() + "/bikes");
     }
 }

@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@WebServlet(name="CreateBikeServlet", value = "/CreateBikeServlet",urlPatterns = "create-bike") // пустой url был
+@WebServlet(name="CreateBikeServlet", value = "/CreateBikeServlet",urlPatterns = "/create-bike") // пустой url был
 public class CreateBikeServlet extends HttpServlet {
     @EJB
     AppBean appBean;

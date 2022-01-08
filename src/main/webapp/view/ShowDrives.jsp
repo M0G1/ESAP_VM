@@ -33,7 +33,6 @@
             <th>User id</th>
             <th>User Name</th>
             <th></th>
-            <th></th>
         </tr>
         </thead>
         <tbody>
@@ -63,8 +62,8 @@
         <% } %>
         </tbody>
     </table>
-    <form action="${pageContext.request.contextPath}/create-student" method="get">
-        <button class="btn btn-primary">Create student</button>
+    <form action="${pageContext.request.contextPath}/create-drive" method="get">
+        <button class="btn btn-primary">Create drive</button>
     </form>
 </div>
 </body>

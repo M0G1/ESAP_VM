@@ -8,14 +8,14 @@
 <body>
 <div class="container w-50">
     <form method="post" action="${pageContext.request.contextPath}/create-user">
-        <h1>Create student</h1>
+        <h1>Create user</h1>
         <div class="form-group">
-            <label for="userName">First name: </label>
+            <label for="userName">User Name: </label>
             <input class="form-control" id="userName" name="userName" type="text" required/>
         </div>
 
         <div class="form-group">
-            <label for="budget">Year: </label>
+            <label for="budget">Budget: </label>
             <input class="form-control" id="budget" name="budget" type="number" min="0" required/>
         </div>
 
